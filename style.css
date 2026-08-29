@@ -685,3 +685,66 @@ footer {
     }
 
   }
+
+/* ================= GALERI LEBIH KEREN ================= */
+
+.gallery {
+    gap: 20px;
+}
+
+.gallery-item {
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(23, 61, 43, 0.12);
+    cursor: pointer;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 18px 40px rgba(23, 61, 43, 0.20);
+}
+
+.gallery-item img {
+    transition: transform 0.6s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.08);
+}
+
+.gallery-caption {
+    padding: 60px 20px 20px;
+    background: linear-gradient(
+        transparent,
+        rgba(0, 0, 0, 0.80)
+    );
+}
+
+.gallery-caption b {
+    font-size: 17px;
+}
+
+.gallery-caption span {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.gallery-item.large {
+    border: 3px solid rgba(255, 255, 255, 0.7);
+}
+
+@media (max-width: 500px) {
+
+    .gallery {
+        gap: 15px;
+    }
+
+    .gallery-item {
+        border-radius: 17px;
+    }
+
+    .gallery-item:hover {
+        transform: translateY(-3px);
+    }
+
+}
