@@ -757,3 +757,9 @@ footer {
 .gallery-item:nth-child(3) img {
     object-position: center bottom !important;
 }
+
+/* ================= POSISI FOTO PERTANIAN ================= */
+
+.gallery-item:nth-child(5) img {
+    object-position: center bottom !important;
+}
