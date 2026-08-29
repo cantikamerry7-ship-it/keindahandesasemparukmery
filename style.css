@@ -763,3 +763,41 @@ footer {
 .gallery-item:nth-child(5) img {
     object-position: center bottom !important;
 }
+
+/* ================= TEKS GALERI DI BAWAH FOTO ================= */
+
+.gallery-item {
+    overflow: visible;
+    background: white;
+}
+
+.gallery-caption {
+    position: static;
+    padding: 15px 5px 5px;
+    background: white;
+    color: var(--dark-green);
+}
+
+.gallery-caption b {
+    display: block;
+    font-size: 16px;
+}
+
+.gallery-caption span {
+    display: block;
+    margin-top: 3px;
+    color: var(--gray);
+    font-size: 12px;
+}
+
+
+/* UKURAN FOTO */
+
+.gallery-item img {
+    height: 230px;
+    display: block;
+}
+
+.gallery-item.large img {
+    height: 478px;
+}
