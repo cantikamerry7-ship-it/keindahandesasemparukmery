@@ -377,7 +377,7 @@ a {
 }
 
 .gallery-item.large {
-    grid-row: span 2;
+    grid-row: span 1;
 }
 
 .gallery-item img {
