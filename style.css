@@ -755,5 +755,5 @@ footer {
 /* ================= POSISI FOTO TEMPAT IBADAH ================= */
 
 .gallery-item:nth-child(3) img {
-    object-position: center 85;
+    object-position: center 90;
 }
