@@ -393,19 +393,10 @@ a {
 }
 
 .gallery-caption {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-
-    padding: 35px 18px 16px;
-
-    color: white;
-
-    background: linear-gradient(
-        transparent,
-        rgba(0,0,0,.75)
-    );
+    position: static;
+    padding: 15px 5px 20px;
+    color: var(--dark-green);
+    background: white;
 }
 
 .gallery-caption b,
@@ -413,9 +404,15 @@ a {
     display: block;
 }
 
+.gallery-caption b {
+    font-size: 17px;
+    font-weight: 700;
+}
+
 .gallery-caption span {
+    margin-top: 4px;
     font-size: 12px;
-    opacity: .85;
+    color: var(--gray);
 }
 
 
