@@ -752,8 +752,8 @@ footer {
 .gallery-item.large img {
     object-position: center 85%;
 }
-/* ================= POSISI FOTO TEMPAT IBADAH ================= */
+/* ================= TEMPAT IBADAH - FOKUS MASJID ================= */
 
 .gallery-item:nth-child(3) img {
-    object-position: center 90;
+    object-position: center bottom !important;
 }
